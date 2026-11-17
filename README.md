@@ -9,7 +9,7 @@ analysis of commercial drug-type cannabis accessions. *bioRxiv*.
 [https://doi.org/10.64898/2026.08.27.747640](https://doi.org/10.64898/2026.08.27.747640)
 
 - Data: Figshare, [https://doi.org/10.6084/m9.figshare.33359469](https://doi.org/10.6084/m9.figshare.33359469)
-- Feature selection: CannaFeatML, [https://github.com/Mehdibabaeii/CannaFeatML](https://github.com/Mehdibabaeii/CannaFeatML)
+- Feature selection: CannaFeatML, release v1.0.0, [https://github.com/Mehdibabaeii/CannaFeatML](https://github.com/Mehdibabaeii/CannaFeatML)
 
 Cite the version you ran. It is the content of the file `VERSION` and the first line of
 every QC file a run writes.
@@ -54,8 +54,8 @@ elbow, silhouette) for k = 2 to 7.
 ### Feature selection with CannaFeatML
 
 The 12 marker compounds of `config/markers.tsv` were selected with
-[CannaFeatML](https://github.com/Mehdibabaeii/CannaFeatML), a separate pipeline that is not
-part of this repository. The target of the selection is the cluster of each accession
+[CannaFeatML](https://github.com/Mehdibabaeii/CannaFeatML) (release v1.0.0), a separate pipeline
+that is not part of this repository. The target of the selection is the cluster of each accession
 written by step 08 (`BLUP_CLUSTER_FILE`: ZERO, ONE, TWO), and the features are the 61 BLUP
 estimates of the same file. CannaFeatML ran three selectors:
 
