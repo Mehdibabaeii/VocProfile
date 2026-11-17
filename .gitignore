@@ -1,0 +1,16 @@
+config_personal.txt
+work/
+results/
+figures/
+logs/
+*.xlsx
+*.csv
+*.tsv
+!config/*.tsv
+!tests/**/*.tsv
+!tests/**/*.csv
+!tests/**/*.xlsx
+*.pkl
+*.npy
+__pycache__/
+.ipynb_checkpoints/

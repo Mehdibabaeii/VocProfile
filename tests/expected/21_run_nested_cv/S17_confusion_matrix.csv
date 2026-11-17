@@ -1,0 +1,4 @@
+,pred_ZERO,pred_ONE,pred_TWO
+true_ZERO,22.8,1.0,0.2
+true_ONE,1.5,12.7,0.8
+true_TWO,2.7,0.2,6.1

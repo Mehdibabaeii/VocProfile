@@ -1,0 +1,54 @@
+# Sizes (pt on the canvas) and texts of the accession heat map and of the correlation matrix of step 14.
+# compound_label_fit_max: the compound names of the correlation matrix are enlarged up to this size where they fit
+# the canvas of the submitted figure. legend_title empty: two legends with legend_main_title and legend_subclass_title.
+# legend_files: the two legends also as images. panel: saved at MINIMUM_PANEL_DPI of LABELS_TABLE or more.
+# INPUT_SETS_TABLE names the style of each input set. Row label "Genotypes" is shown as "Accessions" when LABELS = revised.
+style	setting	submitted	revised
+heatmap_standard	colourbar_label_size	40	40
+heatmap_standard	colourbar_tick_size	30	30
+heatmap_standard	compound_label_size	35	35
+heatmap_standard	accession_label_size	35	35
+heatmap_standard	axis_label_size	60	60
+heatmap_standard	row_axis_label	Cultivars	Cultivars
+heatmap_standard	main_class_label	Main Class	Main Class
+heatmap_standard	subclass_label	Subclass	Subclass
+heatmap_standard	strip_label_size	35	35
+heatmap_standard	display_names	FALSE	FALSE
+heatmap_standard	legend	TRUE	TRUE
+heatmap_large_labels	colourbar_label_size	80	80
+heatmap_large_labels	colourbar_tick_size	70	70
+heatmap_large_labels	compound_label_size	70	70
+heatmap_large_labels	accession_label_size	70	70
+heatmap_large_labels	axis_label_size	90	90
+heatmap_large_labels	row_axis_label	Genotypes	Genotypes
+heatmap_large_labels	main_class_label	Main Class	Main Class
+heatmap_large_labels	subclass_label	Subclass	Subclass
+heatmap_large_labels	strip_label_size	35	35
+heatmap_large_labels	display_names	FALSE	TRUE
+heatmap_large_labels	legend	FALSE	FALSE
+correlation_standard	compound_label_size	30	30
+correlation_standard	axis_label_size	60	60
+correlation_standard	main_class_label	Main Class	Main Class
+correlation_standard	subclass_label	Subclass	Subclass
+correlation_standard	strip_label_size	22	22
+correlation_standard	colourbar_left	1.05	1.05
+correlation_standard	display_names	FALSE	FALSE
+correlation_standard	compound_label_fit_max		
+correlation_standard	legend_title	Classification	Classification
+correlation_standard	legend_main_title		
+correlation_standard	legend_subclass_title		
+correlation_standard	legend_files	FALSE	FALSE
+correlation_standard	panel	FALSE	FALSE
+correlation_fig3b	compound_label_size	30	30
+correlation_fig3b	axis_label_size	60	60
+correlation_fig3b	main_class_label	Main Class	Main Class
+correlation_fig3b	subclass_label	Subclass	Subclass
+correlation_fig3b	strip_label_size	22	22
+correlation_fig3b	colourbar_left	1.05	1.05
+correlation_fig3b	display_names	FALSE	TRUE
+correlation_fig3b	compound_label_fit_max		40
+correlation_fig3b	legend_title	Classification	
+correlation_fig3b	legend_main_title		Main class (b)
+correlation_fig3b	legend_subclass_title		Subclass (b)
+correlation_fig3b	legend_files	TRUE	TRUE
+correlation_fig3b	panel	TRUE	TRUE

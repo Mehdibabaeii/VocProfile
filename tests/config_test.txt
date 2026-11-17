@@ -1,0 +1,133 @@
+# VocProfile configuration of the test run on the invented dataset of tests/data.
+# Same keys as config.txt; resolutions and numbers of resamples are lowered to keep the run short.
+# Each setting says what it does and what the paper used.
+
+# ---------------------------------------------------------------- run
+# Folder of this run. results/, figures/ and logs/ are written under it. The code folder is never written to.
+WORK_DIR = /path/to/work
+# Folder that holds the input files named below.
+INPUT_DIR = CODE_DIR/tests/data
+# 1: framed title at the start of a run. 0: two plain lines, for a log read by a machine.
+BANNER = 1
+# revised: wording, sizes and resolution of the revised figures and tables (the paper).
+# submitted: those of the first submission. The numbers are the same in both.
+LABELS = revised
+
+# ---------------------------------------------------------------- input files
+# File names, inside INPUT_DIR unless a full path is given. docs/INPUTS.md describes each file.
+# Compound list with class, subclass and SMILES. The list of the paper is config/compounds.tsv.
+COMPOUND_FILE = CODE_DIR/config/compounds.tsv
+# Replicate-level workbook: one row per run, one sheet per quantification dataset.
+REPLICATE_FILE = replicates.xlsx
+# Accession means, one sheet per dataset, header rows above the values, groups in the second column.
+MEANS_FILE = accession_means.xlsx
+# Accession means of the main dataset, and BLUP estimates, each with the cluster name in the
+# second column. Step 08 writes both under WORK_DIR; the later steps read them from there.
+MEANS_CLUSTER_FILE = WORK_DIR/results/08_build_cluster_inputs/accession_means_clusters.xlsx
+BLUP_CLUSTER_FILE = WORK_DIR/results/08_build_cluster_inputs/blup_clusters.csv
+
+# ---------------------------------------------------------------- layout of the input files
+# Column of the accession name and of the replicate number in the replicate workbook.
+ACCESSION_COLUMN = Sample
+REPLICATE_COLUMN = Rep
+# Text that marks a run without detection. Empty cells are read the same way.
+NONDETECT_CODE = ND
+# Header rows of the accession-mean files: main class, subclass, compound (paper: 3).
+MEANS_HEADER_ROWS = 3
+# Quantification datasets, in the order they are processed. For each: the sheet that holds it,
+# the label used in output names and figure titles, and the short name used in step 03.
+DATASETS = is_normalized, external, internal, spike_corrected
+SHEET_IS_NORMALIZED = Sheet1
+SHEET_EXTERNAL = Sheet2
+SHEET_INTERNAL = Sheet3
+SHEET_SPIKE_CORRECTED = Sheet4
+LABEL_IS_NORMALIZED = is_normalized
+LABEL_EXTERNAL = external
+LABEL_INTERNAL = internal
+LABEL_SPIKE_CORRECTED = spike_corrected
+SHORT_IS_NORMALIZED = Std
+SHORT_EXTERNAL = ExtQ
+SHORT_INTERNAL = IntQ
+SHORT_SPIKE_CORRECTED = ForcedQ
+# Dataset analysed in the paper (external calibration).
+MAIN_DATASET = external
+# Dataset that holds relative abundances and not concentrations; its axis labels differ.
+ABUNDANCE_DATASET = is_normalized
+
+# ---------------------------------------------------------------- tables
+# Tables read by the steps. Point a setting at a copy to change a table without touching the code.
+INPUT_SETS_TABLE = CODE_DIR/config/input_sets.tsv
+FIGURE_STYLES_TABLE = CODE_DIR/config/figure_styles.tsv
+LABELS_TABLE = CODE_DIR/config/labels.tsv
+LABEL_WORDING_TABLE = CODE_DIR/config/label_wording.tsv
+DISPLAY_NAMES_TABLE = CODE_DIR/config/compound_display_names.tsv
+CLUSTER_TABLE = CODE_DIR/config/clusters.tsv
+COLOUR_TABLE = CODE_DIR/config/colours.tsv
+COMPOUND_COLOUR_TABLE = CODE_DIR/config/compound_colours.tsv
+ODOR_THRESHOLD_TABLE = CODE_DIR/config/odor_thresholds.tsv
+MARKER_TABLE = CODE_DIR/config/markers.tsv
+SUBCLASS_ORDER_TABLE = CODE_DIR/config/subclass_order.tsv
+
+# ---------------------------------------------------------------- method
+# Seed of k-means, t-SNE, the random forest and the odor index steps (paper: 42).
+SEED = 42
+# Seed of the horizontal jitter of the points in the box plots of step 14. The paper drew it
+# without a seed; it moves points sideways only. Empty: unseeded.
+JITTER_SEED = 42
+# A run without detection is set to this fraction of the smallest positive value of the compound,
+# at replicate level, before the BLUPs (paper: 0.5).
+NONDETECT_FRACTION = 0.5
+# The variance among accessions is not allowed below this fraction of the error variance (paper: 0.01).
+ACCESSION_VARIANCE_FLOOR = 0.01
+# z-scores are clipped at plus and minus this value before clustering and in the heat maps (paper: 3).
+CLIP_LIMIT = 3
+# Number of clusters (paper: 3) and number of k-means initialisations (paper: 10).
+N_CLUSTERS = 3
+KMEANS_N_INIT = 10
+# Range of k for which silhouette, Calinski-Harabasz and the elbow criterion are computed (paper: 2 to 7).
+K_MIN = 2
+K_MAX = 7
+# Clusters are numbered by size, largest first. To impose another numbering give old:new pairs,
+# for example 0:2, 1:0, 2:1. Empty in the paper.
+CLUSTER_REMAP =
+# Sizes of the clusters in the order of CLUSTER_TABLE; step 08 stops if they differ
+# (paper: 90, 53, 22). Empty: no check.
+CLUSTER_SIZES_EXPECTED = 
+# Levels of the marks ***, ** and * (paper: 0.001, 0.01, 0.05) and level of the Tukey test (paper: 0.05).
+SIGNIFICANCE_LEVELS = 0.001, 0.01, 0.05
+TUKEY_ALPHA = 0.05
+# Steps 18 to 21: resamples of accessions and compounds, k-means seeds, Monte Carlo draws
+# (paper: 1000, 300, 10000).
+N_RESAMPLE = 20
+N_SEEDS = 10
+N_MONTE_CARLO = 200
+
+# ---------------------------------------------------------------- figures
+# Font family of the figures that set one (steps 01, 16, 17). DejaVu Sans is used when it is not installed.
+FONT_FAMILY = DejaVu Sans
+# TrueType file for the names in the A4 structure grid of step 01; the default PIL font is used when it is not found.
+STRUCTURE_GRID_FONT_FILE = arial.ttf
+# 2D layouts of the structures (SDF, record title = compound name, read with explicit hydrogens).
+# A compound found in the file is drawn from its stored coordinates and wedges, so the drawings do
+# not depend on the RDKit version; any other compound is laid out from its SMILES. Empty: no file.
+STRUCTURE_LAYOUT_FILE = CODE_DIR/config/structure_layouts.sdf
+# Resolution written into the A4 structure grid, and size in pixels of the structures of the compound table.
+STRUCTURE_GRID_DPI = 150
+TABLE_STRUCTURE_PX = 150
+# Step 01, fitted names: smallest size a name may be reduced to, and position below the structure.
+STRUCTURE_LABEL_MIN_SIZE = 8
+STRUCTURE_LABEL_OFFSET = 0.02
+# Resolution of the figures of each step (values of the paper).
+DPI_STATISTICS = 40
+DPI_CLUSTER_FIGURE = 40
+DPI_CLUSTER_NUMBER = 40
+DPI_CLASS_SUMMARIES = 40
+DPI_DETECTION = 40
+DPI_DISTRIBUTIONS = 40
+DPI_GROUP_PROFILES = 40
+DPI_GROUP_DISTRIBUTIONS = 20
+DPI_ODOR_INDEX = 40
+DPI_ODOR_INDEX_HIGH = 40
+DPI_RADAR = 40
+# TRUE: cluster legend on the radar plots of step 17 (paper: FALSE).
+RADAR_LEGEND = FALSE

@@ -1,0 +1,7 @@
+dataset_1,dataset_2,ARI
+is_normalized,external,1.0
+is_normalized,internal,1.0
+is_normalized,spike_corrected,1.0
+external,internal,1.0
+external,spike_corrected,1.0
+internal,spike_corrected,1.0

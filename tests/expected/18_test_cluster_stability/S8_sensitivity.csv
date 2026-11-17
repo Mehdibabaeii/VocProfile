@@ -1,0 +1,13 @@
+analysis,ARI,silhouette,sizes,kept_ZERO,kept_ONE,kept_TWO
+"Published (BLUP, z-score, clip ±3, k-means)",1.0,0.218,24/15/9,24,15,9
+Ward linkage,1.0,0.218,24/15/9,24,15,9
+No clipping,1.0,0.21,24/15/9,24,15,9
+Accession means instead of BLUP,1.0,0.217,24/15/9,24,15,9
+log10 before scaling,1.0,0.208,24/15/9,24,15,9
+Proportions of total,1.0,0.21,24/15/9,24,15,9
+Centered log-ratio,1.0,0.192,24/15/9,24,15,9
+Non-detects = min/√2,1.0,0.218,24/15/9,24,15,9
+Non-detects = 0,1.0,0.217,24/15/9,24,15,9
+Non-detects = min,1.0,0.219,24/15/9,24,15,9
+Compounds detected in ≥80% of runs (n=47),1.0,0.232,24/15/9,24,15,9
+Compounds detected in all runs (n=32),1.0,0.206,24/15/9,24,15,9

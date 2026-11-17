@@ -1,0 +1,8 @@
+# Clusters in order of size (largest first): number given by step 06, name, colour, descriptor.
+# Rows without a name are colours kept for a run with more than three clusters.
+id	name	colour	descriptor
+0	ZERO	#1DD1F0	minimally modulated
+1	ONE	#19C135	citrus–floral modulated
+2	TWO	#BB1DF0	pine–terpenic modulated
+3		#984ea3	
+4		#377eb8	

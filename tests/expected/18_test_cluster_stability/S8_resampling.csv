@@ -1,0 +1,5 @@
+test,k,mean_ARI,p2_5,p97_5,share_ARI_above_0_8
+80% of accessions,2,1.0,1.0,1.0,1.0
+80% of accessions,3,1.0,1.0,1.0,1.0
+80% of accessions,4,0.966,0.853,1.0,1.0
+80% of compounds,3,1.0,1.0,1.0,1.0

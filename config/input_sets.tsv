@@ -1,0 +1,18 @@
+# One row per run of a step that is repeated on several inputs (steps 09, 13 and 14).
+# input: means, means_clusters or blup_clusters. datasets: names of DATASETS (empty for the BLUP file).
+# grouping: k_groups or clusters. compounds: all or markers (MARKER_TABLE). transform (step 14): log1p, filled or none.
+# The correlation matrix of clusters_log1p_fig3b is Fig. 3b.
+step	set	input	datasets	grouping	compounds	cluster_legend	layout	transform	output_folder	output_label	heatmap_style	correlation_style	group_axis_label_submitted	group_axis_label_revised	compound_legend_title_submitted	compound_legend_title_revised
+09	accession_means	means	is_normalized,external,internal,spike_corrected	k_groups	all	FALSE			class_summaries						Subclass → Compound	Subclass → Compound
+09	clusters_all	blup_clusters		clusters	all	TRUE			class_summaries	blup_clusters					Subclass → Compound	Subclass → Compound
+09	clusters_markers	blup_clusters		clusters	markers	TRUE			class_summaries	blup_clusters					Subclass → Compound	Compound (c)
+13	k_groups	means	is_normalized,external,internal,spike_corrected	k_groups	all		k_groups		group_profiles				K Group	K Group		
+13	clusters_all	blup_clusters		clusters	all		clusters_all		group_profiles	blup_clusters			Chemotype	Cluster		
+13	clusters_markers	blup_clusters		clusters	markers		clusters_markers		group_profiles_markers	blup_clusters			Cluster	Cluster		
+14	k_groups_log1p	means	is_normalized,external,internal,spike_corrected	k_groups	all			log1p	plots		heatmap_standard	correlation_standard	Genetic Clades (K)	Genetic Clades (K)		
+14	clusters_log1p	means_clusters	external	clusters	all			log1p	plots		heatmap_standard	correlation_standard	Genetic Clades (K)	Cluster		
+14	clusters_log1p_fig3b	means_clusters	external	clusters	all			log1p	plots		heatmap_large_labels	correlation_fig3b	Genetic Clades (K)	Cluster		
+14	k_groups_filled	means	is_normalized,external,internal,spike_corrected	k_groups	all			filled	plots		heatmap_standard	correlation_standard	Genetic Clades (K)	Genetic Clades (K)		
+14	clusters_filled	means_clusters	external	clusters	all			filled	plots		heatmap_standard	correlation_standard	Genetic Clades (K)	Cluster		
+14	k_groups_none	means	is_normalized,external,internal,spike_corrected	k_groups	all			none	plots		heatmap_standard	correlation_standard	Genetic Clades (K)	Genetic Clades (K)		
+14	clusters_none	means_clusters	external	clusters	all			none	plots		heatmap_standard	correlation_standard	Genetic Clades (K)	Cluster		

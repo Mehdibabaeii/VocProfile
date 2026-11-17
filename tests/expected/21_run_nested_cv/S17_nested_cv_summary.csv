@@ -1,0 +1,8 @@
+,mean,SD,p2_5,p97_5
+accuracy_consensus,0.866,0.123,0.615,1.0
+balanced_accuracy,0.822,0.163,0.556,1.0
+recall_ZERO,0.95,0.09,0.761,1.0
+recall_ONE,0.847,0.235,0.333,1.0
+recall_TWO,0.67,0.436,0.0,1.0
+accuracy_all61,1.0,0.0,1.0,1.0
+accuracy_panel12,0.938,0.062,0.803,1.0

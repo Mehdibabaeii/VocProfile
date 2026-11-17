@@ -1,0 +1,22 @@
+# Settings with one value for the submitted figures and one for the revised ones. LABELS in config.txt chooses the column.
+# None of them changes a number.
+setting	submitted	revised	description
+DETECTION_Y_AXIS	Number of Cultivars	Number of accessions	y axis of the detection figure (step 10, Fig. 2c)
+CLUSTER_NAMES_ON_FIGURES	FALSE	TRUE	step 06: cluster names of CLUSTER_TABLE instead of Cluster 0, 1, 2
+DENDROGRAM_LEGEND_TITLE	Clusters	Cluster (a, c)	step 06: legend title of the dendrogram (Fig. 3a)
+SCATTER_LEGEND_TITLE		Cluster	step 06: legend title of the PCA and t-SNE panels
+ODOR_RANKING_SIGNIFICANCE	unadjusted	bh	step 16: marks of the ranking figure from Kruskal-Wallis p (unadjusted) or Benjamini-Hochberg adjusted p (bh)
+STRUCTURE_FIGURE_DPI	150	600	step 01: resolution of the structure figure by class (all_compounds_structures.png)
+STRUCTURE_LABEL_SIZE	7.5	7.5	step 01: size of the compound names in the structure figure by class, in pt
+STRUCTURE_LABELS_FITTED	FALSE	FALSE	step 01: names enlarged after the layout is set and broken to two lines within the cell
+STRUCTURE_RENDER_PX	150	600	step 01: size in pixels at which each structure of the figure by class is drawn
+STRUCTURE_ATOM_LABEL_MIN_PX			step 01: smallest atom label, in pixels of a 150 px drawing; empty: RDKit default
+UNIT_ABUNDANCE_LOG1P	log(Abundance of VOCs)	ln(1 + abundance of VOCs)	step 14: value axis, IS-normalized dataset, log1p input sets
+UNIT_CONCENTRATION_LOG1P	log(Estimated Concentration) (µg/g)	ln(1 + concentration [µg/g])	step 14: value axis, other datasets, log1p input sets
+UNIT_ABUNDANCE_FILLED	log(Abundance of VOCs)	Abundance of VOCs	step 14: value axis, filled input sets
+UNIT_CONCENTRATION_FILLED	log(Estimated Concentration) (µg/g)	Estimated Concentration (µg/g)	step 14: value axis, filled input sets
+UNIT_ABUNDANCE_NONE	log(Abundance of VOCs)	Abundance of VOCs	step 14: value axis, input sets without filling
+UNIT_CONCENTRATION_NONE	log(Estimated Concentration) (µg/g)	Estimated Concentration (µg/g)	step 14: value axis, input sets without filling
+STRUCTURE_GRID_SCALE	1	4	step 01: the A4 structure grid (Fig. 1) is 2480 x 3508 px times this factor; every structure is drawn at that size
+STRUCTURE_GRID_NAME_FACTOR	1	1.15	step 01: size of the compound names in the A4 structure grid, relative to the submitted figure
+MINIMUM_PANEL_DPI		600	smallest resolution of the panels of the paper drawn by steps 06, 14 (Fig. 3b), 16 and 17; empty: the DPI settings of config.txt

@@ -1,0 +1,4 @@
+cluster,n,mean_silhouette,share_negative
+ZERO,24,0.32,0.0
+ONE,15,0.092,0.133
+TWO,9,0.153,0.0

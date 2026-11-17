@@ -1,0 +1,34 @@
+{
+  "title": "VocProfile: volatile profiling and odor screening of cannabis accessions",
+  "description": "VocProfile takes GC measurements of volatile compounds in a panel of accessions and produces descriptive statistics, variance components with BLUPs and repeatability, clusters of accessions with the criteria used to choose their number, profiles by biosynthetic class, correlations among compounds, and a relative odor index that weights concentrations by published odor thresholds. All settings are in one configuration file.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Babaei, Mehdi",
+      "affiliation": "Université Laval"
+    }
+  ],
+  "license": "mit",
+  "keywords": [
+    "Cannabis sativa",
+    "volatile organic compounds",
+    "terpenes",
+    "BLUP",
+    "clustering",
+    "odor threshold"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.64898/2026.08.27.747640",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.33359469",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ]
+}

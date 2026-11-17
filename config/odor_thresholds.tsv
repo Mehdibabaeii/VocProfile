@@ -1,0 +1,37 @@
+# Odor detection threshold in air (mg m-3) of each compound with a published threshold, as in Table S7 of the paper.
+# The relative odor index of a compound is its concentration divided by this threshold.
+# Row order is used by step 19 (test and Monte Carlo order).
+compound	threshold	odor	category	cas	threshold_source	odor_source
+Prenylthiol	5.00E-07	Skunky	Sulfur	5287-45-6	Vermeulen & Collin, 2006	Li et al., 2017
+α-Pinene	3.60E-04	Resin, fir	Pine	80-56-8	Randebrock, 1986	Sellami et al., 2018
+(±)-Limonene	1.20E-02	Citrus, orange	Citrus	138-86-3	Appell, 1969	Dunkel et al., 2014
+Linalool	1.40E-03	Floral, lavender	Floral	78-70-6	Appell, 1969	Czerny et al., 2008
+Myrcene	4.10E-02	Hops, geranium	Herbal	123-35-3	Jagella & Grosch, 1998	Czerny et al., 2008
+(Z)-3-Hexenal	9.00E-05	Green, grassy	Green	6789-80-6	Guth & Grosch, 1991	Czerny et al., 2008
+(E)-β-ocimene	1.87E-02	Terpenic	Terpenic	3779-61-1	Güntert et al., 2001	Munafo et al., 2016
+Hexanal	1.40E-03	Green, grassy	Green	66-25-1	Cometto-Muñiz & Abraham, 2010	Czerny et al., 2008
+(E)-2-Hexenal	3.10E-03	Green apple	Fruity	6728-26-3	Yang et al., 2008	Czerny et al., 2008
+(Z)-3-Hexenol	4.00E-03	Lettuce, green	Green	928-96-1	Guth & Grosch, 1991	Czerny et al., 2008
+β-Pinene	1.80E-01	pine, resin	Pine	127-91-3	Nagata, 2003	Chung et al., 1993
+Ethyl octanoate	2.00E-03	Fruity	Fruity	106-32-1	Backman, 1917	Munafo et al., 2016
+Hexanol	4.00E-02	Green, grassy	Green	111-27-3	Hellman & Small, 1974	Dunkel et al., 2014
+α-Terpineol	2.08E-02	Citrus, floral	Floral	98-55-5	Ferreira et al., 1998	Shi & Steinhaus, 2025
+α-Humulene	1.20E-01	balsamic	Woody	6753-98-6	Guadagni et al., 1966	Steinhaus et al., 2007
+3-Methylbutanol	6.14E-03	Malty	Malty	123-51-3	Nagata, 2003	Czerny et al., 2008
+p-Cymene	1.20E-02	petrol	Chemical	99-87-6	Backman, 1917	Schieberle et al., 1988
+(E)-2-Hexenol	2.32E-01	fruity	Fruity	928-95-0	Giri et al., 2010	Schnabel et al., 1988
+Borneol	5.20E-02	Earthy, mossy	Earthy	507-70-0	Tempelaar, 1913	Jonas & Schieberle, 2021
+Methyl butyrate	3.03E-02	ethereal, sweaty	Chemical	623-42-7	Nagata, 2003	Schnabel et al., 1988
+3-Methylbutyl butanoate	7.00E-02	sweet fruity	Fruity	106-27-4	Cain & Gent, 1991	Good Scents Company
+(Z)-2-Hexenal	8.80E-02	fruity, apple	Fruity	16635-54-4	von Ranson & Belitz, 1992	Grosch, 2007
+β-Caryophyllene	1.10E+01	spice	Spicy	87-44-5	Cristoph, 1983	Flavornet
+2-Methylbutanol	1.42E-01	Malty	Malty	137-32-6	Hellman & Small, 1973	Czerny et al., 2008
+α-Phellandrene	2.9	Dill, grass	Herbal	99-83-2	Cristoph, 1983	Blank & Grosch, 1991
+α-Terpinene	2.35	lemon	Citrus	99-86-5	Cristoph, 1983	Chung et al., 1993
+γ-Terpinene	1.4	petrol	Chemical	99-85-4	Cristoph, 1983	Grosch & Schieberle, 1987
+Hexyl hexanoate	9.00E-01	apple, peach	Fruity	6378-65-0	Jia et al., 2024	Cunningham et al., 1986
+Δ³-Carene	8.6	citrusy	Citrus	13466-78-9	Cristoph, 1983	Bauersachs et al., 2025
+Sabinene	1.5	pepper, wood	Spicy	3387-41-5	Cristoph, 1983	Fischer & Hammerschmidt, 1992
+Hexyl butyrate	5.00E+00	fruity	Fruity	2639-63-6	Lea & Ford, 1991	Neiens et al., 2017
+Germacrene β	2.70E+01	Mushroom	Earthy	15423-57-1	Shi & Steinhaus, 2025	Shi & Steinhaus, 2025
+Camphene	26.0	camphor	Camphor	79-92-5	Cristoph, 1983	Chung et al., 1993

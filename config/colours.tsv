@@ -1,0 +1,8 @@
+# Colours of the main classes (in the order used on every figure) and of the K groups.
+group	key	colour
+main_class	Amino Acid-Derived	#E88F46
+main_class	Fatty Acid-Derived	#F2809F
+main_class	Terpenoids	#50BFB4
+k_group	K1	#1DD1F0
+k_group	K2	#AAF01D
+k_group	K3	#BB1DF0

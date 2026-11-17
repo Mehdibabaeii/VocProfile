@@ -1,0 +1,5 @@
+dataset,sizes,kept_ZERO,kept_ONE,kept_TWO
+is_normalized,24/15/9,24,15,9
+external,24/15/9,24,15,9
+internal,24/15/9,24,15,9
+spike_corrected,24/15/9,24,15,9

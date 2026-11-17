@@ -1,0 +1,4 @@
+treatment,sulfur_ZERO,sulfur_ONE,sulfur_TWO,nonsulfur_ZERO,nonsulfur_ONE,nonsulfur_TWO
+Detected values only,99.9,100.0,99.7,0.1,0.0,0.3
+Non-detects = LOD/2,99.9,100.0,99.7,0.1,0.0,0.3
+Non-detects = 0,99.9,100.0,99.7,0.1,0.0,0.3

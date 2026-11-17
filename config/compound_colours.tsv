@@ -1,0 +1,62 @@
+Compound	MainClass	Subclass	Hex	R	G	B	SubclassBaseHex	IndexInSubclass	NInSubclass	Scale
+2-Methylbutanol	Amino Acid-Derived	Isoleucine-derived	#F77189	247	113	137	#F77189	1	2	1.0
+2-Methylbutyronitrile	Amino Acid-Derived	Isoleucine-derived	#FBB8C4	251	184	196	#F77189	2	2	0.5
+3-Methylbutanol	Amino Acid-Derived	Leucine-derived	#E68332	230	131	50	#E68332	1	2	1.0
+3-Methylbutyl butanoate	Amino Acid-Derived	Leucine-derived	#F3C198	243	193	152	#E68332	2	2	0.5
+Ethyl octanoate	Fatty Acid-Derived	Acyl-CoA ester	#BB9832	187	152	50	#BB9832	1	4	1.0
+Hexyl butyrate	Fatty Acid-Derived	Acyl-CoA ester	#C7A954	199	169	84	#BB9832	2	4	0.8333
+Hexyl hexanoate	Fatty Acid-Derived	Acyl-CoA ester	#D2BA76	210	186	118	#BB9832	3	4	0.6667
+Methyl butyrate	Fatty Acid-Derived	Acyl-CoA ester	#DDCB98	221	203	152	#BB9832	4	4	0.5
+(E)-2-Hexenal	Fatty Acid-Derived	Lipoxygenase-derived	#97A431	151	164	49	#97A431	1	8	1.0
+(E)-2-Hexenol	Fatty Acid-Derived	Lipoxygenase-derived	#9EAA40	158	170	64	#97A431	2	8	0.9286
+(Z)-2-Hexenal	Fatty Acid-Derived	Lipoxygenase-derived	#A6B14F	166	177	79	#97A431	3	8	0.8571
+(Z)-3-Hexenal	Fatty Acid-Derived	Lipoxygenase-derived	#ADB75D	173	183	93	#97A431	4	8	0.7857
+(Z)-3-Hexenol	Fatty Acid-Derived	Lipoxygenase-derived	#B5BE6C	181	190	108	#97A431	5	8	0.7143
+(Z)-4-Hexenol	Fatty Acid-Derived	Lipoxygenase-derived	#BCC47B	188	196	123	#97A431	6	8	0.6429
+Hexanal	Fatty Acid-Derived	Lipoxygenase-derived	#C4CB89	196	203	137	#97A431	7	8	0.5714
+Hexanol	Fatty Acid-Derived	Lipoxygenase-derived	#CBD198	203	209	152	#97A431	8	8	0.5
+Prenylthiol	Terpenoids	Acyclic terpenoid thiol	#50B131	80	177	49	#50B131	1	1	1.0
+Ethyl senecioate	Terpenoids	Acyclic terpenoid ester	#34AF84	52	175	132	#34AF84	1	1	1.0
+Camphene	Terpenoids	Bicyclic Monoterpene	#36ADA4	54	173	164	#36ADA4	1	8	1.0
+Hashishene	Terpenoids	Bicyclic Monoterpene	#44B3AB	68	179	171	#36ADA4	2	8	0.9286
+Sabinene	Terpenoids	Bicyclic Monoterpene	#52B8B1	82	184	177	#36ADA4	3	8	0.8571
+Δ³-Carene	Terpenoids	Bicyclic Monoterpene	#61BEB8	97	190	184	#36ADA4	4	8	0.7857
+α-Fenchene	Terpenoids	Bicyclic Monoterpene	#6FC4BE	111	196	190	#36ADA4	5	8	0.7143
+α-Pinene	Terpenoids	Bicyclic Monoterpene	#7ECAC5	126	202	197	#36ADA4	6	8	0.6429
+α-Thujene	Terpenoids	Bicyclic Monoterpene	#8CD0CB	140	208	203	#36ADA4	7	8	0.5714
+β-Pinene	Terpenoids	Bicyclic Monoterpene	#9AD6D2	154	214	210	#36ADA4	8	8	0.5
+(E)-β-ocimene	Terpenoids	Acyclic Monoterpene	#38AABF	56	170	191	#38AABF	1	2	1.0
+Myrcene	Terpenoids	Acyclic Monoterpene	#9BD4DF	155	212	223	#38AABF	2	2	0.5
+(±)-Limonene	Terpenoids	Monocyclic Monoterpene	#3BA3EC	59	163	236	#3BA3EC	1	6	1.0
+Terpinolene	Terpenoids	Monocyclic Monoterpene	#4FACEE	79	172	238	#3BA3EC	2	6	0.9
+p-Cymene	Terpenoids	Monocyclic Monoterpene	#63B5F0	99	181	240	#3BA3EC	3	6	0.8
+α-Phellandrene	Terpenoids	Monocyclic Monoterpene	#76BFF2	118	191	242	#3BA3EC	4	6	0.7
+α-Terpinene	Terpenoids	Monocyclic Monoterpene	#8AC8F4	138	200	244	#3BA3EC	5	6	0.6
+γ-Terpinene	Terpenoids	Monocyclic Monoterpene	#9DD1F6	157	209	246	#3BA3EC	6	6	0.5
+4-Terpineol	Terpenoids	Oxygenated Monoterpenoid	#A48CF4	164	140	244	#A48CF4	1	8	1.0
+Borneol	Terpenoids	Oxygenated Monoterpenoid	#AA94F5	170	148	245	#A48CF4	2	8	0.9286
+Linalool	Terpenoids	Oxygenated Monoterpenoid	#B19DF6	177	157	246	#A48CF4	3	8	0.8571
+cis-Pinene hydrate	Terpenoids	Oxygenated Monoterpenoid	#B7A5F7	183	165	247	#A48CF4	4	8	0.7857
+cis-Sabinene hydrate	Terpenoids	Oxygenated Monoterpenoid	#BEADF7	190	173	247	#A48CF4	5	8	0.7143
+endo-Fenchol	Terpenoids	Oxygenated Monoterpenoid	#C4B5F8	196	181	248	#A48CF4	6	8	0.6429
+trans-Pinene hydrate	Terpenoids	Oxygenated Monoterpenoid	#CBBDF9	203	189	249	#A48CF4	7	8	0.5714
+α-Terpineol	Terpenoids	Oxygenated Monoterpenoid	#D1C6FA	209	198	250	#A48CF4	8	8	0.5
+(−)-(E)-α-Bergamotene	Terpenoids	Sesquiterpene	#E866F4	232	102	244	#E866F4	1	17	1.0
+Cascarilladiene	Terpenoids	Sesquiterpene	#E86BF5	232	107	245	#E866F4	2	17	0.9688
+Eremophila-1(10),7(11)-diene	Terpenoids	Sesquiterpene	#E970F5	233	112	245	#E866F4	3	17	0.9375
+Germacrene B	Terpenoids	Sesquiterpene	#EA75F5	234	117	245	#E866F4	4	17	0.9062
+Selina-3,7(11)-diene	Terpenoids	Sesquiterpene	#EB7AF6	235	122	246	#E866F4	5	17	0.875
+Selina-4(15),7(11)-diene	Terpenoids	Sesquiterpene	#EB7EF6	235	126	246	#E866F4	6	17	0.8438
+Selina-4,7(11)-diene	Terpenoids	Sesquiterpene	#EC83F6	236	131	246	#E866F4	7	17	0.8125
+Sesquithujene	Terpenoids	Sesquiterpene	#ED88F7	237	136	247	#E866F4	8	17	0.7812
+α-Guaiene	Terpenoids	Sesquiterpene	#ED8DF7	237	141	247	#E866F4	9	17	0.75
+α-Humulene	Terpenoids	Sesquiterpene	#EE91F7	238	145	247	#E866F4	10	17	0.7188
+α-Santalene	Terpenoids	Sesquiterpene	#EF96F8	239	150	248	#E866F4	11	17	0.6875
+α-Ylangene	Terpenoids	Sesquiterpene	#F09BF8	240	155	248	#E866F4	12	17	0.6562
+β-Caryophyllene	Terpenoids	Sesquiterpene	#F0A0F8	240	160	248	#E866F4	13	17	0.625
+β-Farnesene	Terpenoids	Sesquiterpene	#F1A4F9	241	164	249	#E866F4	14	17	0.5938
+β-Selinene	Terpenoids	Sesquiterpene	#F2A9F9	242	169	249	#E866F4	15	17	0.5625
+γ-Cadinene	Terpenoids	Sesquiterpene	#F3AEF9	243	174	249	#E866F4	16	17	0.5312
+δ-Guaiene	Terpenoids	Sesquiterpene	#F3B3FA	243	179	250	#E866F4	17	17	0.5
+BOCA IV	Terpenoids	Sesquiterpene (uncharacterized)	#F668C2	246	104	194	#F668C2	1	2	1.0
+CASA II	Terpenoids	Sesquiterpene (uncharacterized)	#FAB3E0	250	179	224	#F668C2	2	2	0.5

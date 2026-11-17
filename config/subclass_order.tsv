@@ -1,0 +1,27 @@
+# Order of the subclasses used to assign their colours.
+# distributions: steps 11, 12 and 14. profiles: the cluster layouts of step 13.
+order	subclass
+distributions	Acyl-CoA ester
+distributions	Isoleucine-derived
+distributions	Leucine-derived
+distributions	Lipoxygenase-derived
+distributions	Acyclic terpenoid thiol
+distributions	Acyclic terpenoid ester
+distributions	Acyclic Monoterpene
+distributions	Monocyclic Monoterpene
+distributions	Bicyclic Monoterpene
+distributions	Oxygenated Monoterpenoid
+distributions	Sesquiterpene
+distributions	Sesquiterpene (uncharacterized)
+profiles	Isoleucine-derived
+profiles	Leucine-derived
+profiles	Lipoxygenase-derived
+profiles	Acyl-CoA ester
+profiles	Acyclic terpenoid thiol
+profiles	Acyclic terpenoid ester
+profiles	Bicyclic Monoterpene
+profiles	Acyclic Monoterpene
+profiles	Monocyclic Monoterpene
+profiles	Oxygenated Monoterpenoid
+profiles	Sesquiterpene
+profiles	Sesquiterpene (uncharacterized)

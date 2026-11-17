@@ -1,0 +1,4 @@
+cluster,n,mean_jaccard,p2_5
+ZERO,24,1.0,1.0
+TWO,9,1.0,1.0
+ONE,15,1.0,1.0

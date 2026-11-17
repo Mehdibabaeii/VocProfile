@@ -1,0 +1,4 @@
+# Name of a compound in the data and the name shown on figures and in exported headings (LABELS = revised).
+# The name in the data is never changed.
+data_name	display_name
+Germacrene β	Germacrene B

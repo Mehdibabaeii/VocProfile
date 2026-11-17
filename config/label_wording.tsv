@@ -1,0 +1,33 @@
+# Wording applied when LABELS = revised. old and new are whole words.
+# terms: axis labels, titles, legend entries and headings of exported tables.
+# odor_index: axis labels, colour-bar labels and titles of step 16, in this order.
+# figures: every text of every figure. cluster_runs: the same, in the input sets grouped by cluster only.
+scope	old	new
+terms	Genotype Variance	Accession variance
+terms	Genotypes	Accessions
+terms	Genotype	Accession
+terms	genotypes	accessions
+terms	genotype	accession
+terms	Heritability	Repeatability
+terms	heritability	repeatability
+terms	Subgroups	Subclasses
+terms	Subgroup	Subclass
+terms	H2	Repeatability
+terms	OAV	ROI
+terms	Chemotype	Cluster
+terms	chemotype	cluster
+odor_index	Absolute OAV	Relative odor index
+odor_index	Mean OAV	Mean relative odor index
+odor_index	log OAV	log relative odor index
+odor_index	OAV + 1	relative odor index + 1
+odor_index	Odour-Activity Profiles	Relative odor index profiles
+odor_index	Odour-active compound	Compound with a published threshold
+odor_index	OAV	Relative odor index
+figures	ML Chemotypes	Clusters
+figures	Chemotypes	Clusters
+figures	Chemotype	Cluster
+figures	Cultivars	Accessions
+figures	Odor Impact	Relative odor index
+cluster_runs	K-Group	Cluster
+cluster_runs	Clade	Cluster
+cluster_runs	K	Cluster
